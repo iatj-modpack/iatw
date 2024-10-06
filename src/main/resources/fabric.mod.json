@@ -6,7 +6,9 @@
   "name": "It's About The...What?",
   "description": "A guide to It's About The Journey powered by the Lavender mod API.",
   "authors": ["KayoticCarnige"],
-  "contact": {},
+  "contact": {
+    "sources": "https://github.com/kckarnige/iatw"
+  },
 
   "license": "All Rights Reserved",
   "icon": "assets/iatw/icon.png",
