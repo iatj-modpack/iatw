@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "iatw",
+  "version": "${version}",
+
+  "name": "It's About The...What?",
+  "description": "A guide to It's About The Journey powered by the Lavender mod API.",
+  "authors": ["KayoticCarnige"],
+  "contact": {},
+
+  "license": "All Rights Reserved",
+  "icon": "assets/iatw/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.kckarnige.iatw.client.IatwClient"],
+    "main": ["com.kckarnige.iatw.Iatw"]
+  },
+
+  "mixins": [
+    "iatw.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
